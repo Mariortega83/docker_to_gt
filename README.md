@@ -10,5 +10,5 @@ Este proyecto configura integración continua (CI) para crear y publicar automá
 2. **GitHub**:  
    - Crea un repositorio con los archivos: `.github/workflows/docker-image.yml`, `.dockerignore`, `Dockerfile`, `index.html`.
    - En **Settings > Secrets**, añade:
-     - `DOCKERHUB_USERNAME`: Tu usuario de Docker Hub.
-     - `DOCKERHUB_TOKEN`: El token de acceso de Docker Hub.
+     - `DOCKERHUB_USERNAME`: Tu usuario de Docker Hub
+     - `DOCKERHUB_TOKEN`: El token de acceso de Docker Hub
